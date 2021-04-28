@@ -25,7 +25,7 @@ namespace ManejoDeListas
             //o usar add
 
             //Insertar un elemento a continuación de uno dado
-            numeros.Insert(numeros.IndexOf(2),3);
+            numeros.Insert(numeros.IndexOf(2) + 1,3);
 
 
             //Buscar elementos en una lista
